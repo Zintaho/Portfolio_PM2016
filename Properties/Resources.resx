@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textAffinity" xml:space="preserve">
+    <value>프로세서 선호도</value>
+    <comment>프로세서 선호도</comment>
+  </data>
+  <data name="textAffinityWindowMain" xml:space="preserve">
+    <value>해당 프로세스를 실행할 수 있는 프로세서</value>
+    <comment>선호도 설정 창 최 상단에 위치할 문구</comment>
+  </data>
+  <data name="textCancel" xml:space="preserve">
+    <value>취소</value>
+    <comment>취소버튼</comment>
+  </data>
+  <data name="textCPU" xml:space="preserve">
+    <value>CPU</value>
+    <comment>CPU</comment>
+  </data>
+  <data name="textCpuUsage" xml:space="preserve">
+    <value>CPU 사용률</value>
+    <comment>CPU 사용률</comment>
+  </data>
+  <data name="textGae" xml:space="preserve">
+    <value>개</value>
+    <comment>수사 개</comment>
+  </data>
+  <data name="textKillProcess" xml:space="preserve">
+    <value>작업 끝내기</value>
+    <comment>작업 끝내기 버튼</comment>
+  </data>
+  <data name="textListMem" xml:space="preserve">
+    <value>메모리</value>
+    <comment>리스트 뷰 항목 메모리 점유량</comment>
+  </data>
+  <data name="textListName" xml:space="preserve">
+    <value>이름</value>
+    <comment>리스트 뷰 항목 이름</comment>
+  </data>
+  <data name="textListPID" xml:space="preserve">
+    <value>PID</value>
+    <comment>리스트 뷰 항목 PID</comment>
+  </data>
+  <data name="textMemUsage" xml:space="preserve">
+    <value>메모리 사용률</value>
+    <comment>메모리 사용률</comment>
+  </data>
+  <data name="textNotExist" xml:space="preserve">
+    <value> 프로세스가 존재하지 않습니다.</value>
+    <comment>프로세스 존재하지 않을 때</comment>
+  </data>
+  <data name="textOK" xml:space="preserve">
+    <value>확인</value>
+    <comment>확인버튼</comment>
+  </data>
+  <data name="textPriorityAbovenormal" xml:space="preserve">
+    <value>AboveNormal</value>
+    <comment>우선순위 높은 우선 순위</comment>
+  </data>
+  <data name="textPriorityBelownormal" xml:space="preserve">
+    <value>BelowNormal</value>
+    <comment>우선순위 낮은 우선 순위</comment>
+  </data>
+  <data name="textPriorityHigh" xml:space="preserve">
+    <value>High</value>
+    <comment>우선순위 높음</comment>
+  </data>
+  <data name="textPriorityIdle" xml:space="preserve">
+    <value>Idle</value>
+    <comment>우선순위 낮음</comment>
+  </data>
+  <data name="textPriorityNormal" xml:space="preserve">
+    <value>Normal</value>
+    <comment>우선순위 보통</comment>
+  </data>
+  <data name="textPriorityRealtime" xml:space="preserve">
+    <value>RealTime</value>
+    <comment>우선순위 실시간</comment>
+  </data>
+  <data name="textProcess" xml:space="preserve">
+    <value>프로세스</value>
+    <comment>프로세스</comment>
+  </data>
+  <data name="textProcessKill" xml:space="preserve">
+    <value> 프로세스를 종료합니까?</value>
+    <comment>프로세스 종료시</comment>
+  </data>
+  <data name="textSetAffinity" xml:space="preserve">
+    <value>선호도 설정</value>
+    <comment>선호도 설정</comment>
+  </data>
+  <data name="textSetPriority" xml:space="preserve">
+    <value>우선순위 설정</value>
+    <comment>우선순위 설정</comment>
+  </data>
+  <data name="textWarning" xml:space="preserve">
+    <value>알림</value>
+    <comment>알림 창</comment>
+  </data>
+  <data name="textWholeProcessor" xml:space="preserve">
+    <value>모든 프로세서</value>
+    <comment>모든 프로세서</comment>
+  </data>
+</root>
